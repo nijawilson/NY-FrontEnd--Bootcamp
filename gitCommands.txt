@@ -1,0 +1,4 @@
+git-v=check git verion
+git init=initialize git repo
+git config --global user.name "username"=setting up username
+git
