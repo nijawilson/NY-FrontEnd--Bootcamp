@@ -1,8 +1,19 @@
-git-v=check git verion
+git -v=check git version
 git init=initialize git repo
 git config --global user.name "username"=setting up username
 git config --global user.email "user.email= setting up user email
-git add  . "filename"= adding files to staging area
+git add "filename"= adding file to staging area
+git add .= adding all files to staging area
 git commit -m "commit message" = committing files in the staging area
 git status= checking files in the staging area/ checking status of files
 git rm --cached filename= remove file from staging area
+git log --oneline=only gives one line of information unlike git log
+git log= give commit ID number, Author, Date and name of Git File added
+git rm --cached "file name NOT to be committed" (removes file from staging area)
+git log = to get commit id# so you can go back to a certain point using
+git checkout= [Paste commit id # here]
+git checkout master= switches to branch master
+git branch -a= lists ALL branches
+git checkout FILE NAME= goes back to FILE NAME
+git merge [New Branch] into [Master Branch] MUST FIRST BE IN BRANCH YOU WANT TO MERGE
+git branch -d FILE NAME= delete
